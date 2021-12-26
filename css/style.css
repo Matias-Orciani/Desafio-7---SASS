@@ -51,10 +51,11 @@ main {
 
 /* Edicion de titulos*/
 h2 {
-  font-size: 40px;
   color: blanchedalmond;
   font-family: "News Cycle", sans-serif;
   font-family: "Newsreader", serif;
+  justify-content: center;
+  font-size: 40px;
   display: flex;
   justify-content: center;
 }
@@ -101,7 +102,7 @@ h3 {
 }
 
 /*Seccion Gallery*/
-.div-galeria {
+.div-galeria, .div-works-b, .div-works-a {
   display: grid;
   justify-content: center;
   grid-template-areas: "a b c" "d e f" "g h i";
@@ -125,13 +126,6 @@ h3 {
   padding-bottom: 40px;
 }
 
-.div-works-a {
-  display: grid;
-  justify-content: center;
-  grid-template-areas: "a b c" "d e f";
-  gap: 20px;
-}
-
 .img-works-a {
   width: 400px;
   border-radius: 3px;
@@ -142,13 +136,6 @@ h3 {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
-}
-
-.div-works-b {
-  display: grid;
-  justify-content: center;
-  grid-template-areas: "a b c" "d e f";
-  gap: 20px;
 }
 
 .img-works-b {
@@ -185,7 +172,7 @@ h3 {
 
 /*-------Full Responsive--------*/
 @media screen and (max-width: 1200px) {
-  .div-galeria {
+  .div-galeria, .div-works-a, .div-works-b {
     display: grid;
     justify-content: center;
     grid-template-areas: "a b" "c d" "e f" "g h" "i 0";
@@ -239,7 +226,7 @@ h3 {
   }
 }
 @media screen and (max-width: 664px) {
-  .div-galeria {
+  .div-galeria, .div-works-a, .div-works-b {
     display: grid;
     justify-content: center;
     grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i";

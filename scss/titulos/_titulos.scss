@@ -1,19 +1,20 @@
 /* Edicion de titulos*/
-
-h2 {
-    font-size: 40px;
+@mixin colorblancheadalmond-fonttittle-justcenter{
     color: blanchedalmond;
     font-family: 'News Cycle', sans-serif;
     font-family: 'Newsreader', serif;
+    justify-content: center;
+    }
+
+h2 {
+    @include colorblancheadalmond-fonttittle-justcenter;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 
 h3{
-    color: blanchedalmond;
-    font-family: 'News Cycle', sans-serif;
-    font-family: 'Newsreader', serif;
-    justify-content: center;
+    @include colorblancheadalmond-fonttittle-justcenter;
 }
 
 /*Fin de edicion de titulos*/

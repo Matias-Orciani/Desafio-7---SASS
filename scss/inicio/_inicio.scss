@@ -1,5 +1,12 @@
+$colors: (
+"primary": rgb(236, 196, 130), 
+"secundary":rgb(153, 139, 118),
+"background-menu":  rgba(0, 0, 0, 0.493),
+"background": black,
+);
+
 main {
-    background-color: black;
+    background-color: map-get($colors, "background");
 }
 
 #header-menu {
@@ -8,11 +15,11 @@ main {
     height: 110px;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.493);
+    background-color: map-get($colors, "background-menu");
 }
 
 .nav-link:hover {
-    background-color: rgb(153, 139, 118);
+    background-color: map-get($colors, "secundary");
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -26,7 +33,7 @@ main {
     
 }
 #a-h1:hover {
-    color: rgb(236, 196, 130);
+    color: map-get($colors, "primary");
     transition: 0.5s;
     text-decoration: underline;
     cursor: hand;    
@@ -35,7 +42,7 @@ main {
 .navbar-toggler{
     width: 55px;
     height: 50px;
-    background-color: rgb(236, 196, 130);
+    background-color: map-get($colors, "primary");
 } 
 
 .imagenportada{

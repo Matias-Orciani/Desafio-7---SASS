@@ -27,13 +27,8 @@
 }
 
 .div-works-a{
-    display: grid;
-    justify-content: center;
-    grid-template-areas: 
-    "a b c" 
-    "d e f";
-    gap: 20px;
-}
+@extend .div-galeria }
+
 .img-works-a {
     width: 400px;
     border-radius: 3px;
@@ -48,13 +43,9 @@
 }
 
 .div-works-b{
-    display: grid;
-    justify-content: center;
-    grid-template-areas: 
-    "a b c" 
-    "d e f";
-    gap: 20px;
+        @extend .div-galeria 
 }
+
 .img-works-b {
     width: 400px;
     border-radius: 3px;
