@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
 main {
   background-color: black;
 }
 
 #header-menu {
   position: fixed;
+  z-index: 1;
   width: 100%;
   height: 110px;
   top: 0;
@@ -68,6 +73,11 @@ h3 {
 }
 
 /*Fin de edicion de titulos*/
+.section-bio {
+  position: relative;
+  top: 100px;
+}
+
 .about-me {
   padding: 30px;
 }
@@ -102,6 +112,11 @@ h3 {
 }
 
 /*Seccion Gallery*/
+.section-galeria {
+  position: relative;
+  top: 200px;
+}
+
 .div-galeria, .div-works-b, .div-works-a {
   display: grid;
   justify-content: center;
@@ -117,9 +132,15 @@ h3 {
 .h2-galeria {
   display: flex;
   justify-content: center;
+  padding: 5%;
 }
 
 /*Seccion Works a*/
+.section-works-a {
+  position: relative;
+  top: 250px;
+}
+
 .h3-works-a {
   display: flex;
   align-items: center;
@@ -132,6 +153,11 @@ h3 {
 }
 
 /*Seccion Works b*/
+.section-works-b {
+  position: relative;
+  top: 300px;
+}
+
 .h3-works-b {
   display: flex;
   justify-content: center;
@@ -141,6 +167,11 @@ h3 {
 .img-works-b {
   width: 400px;
   border-radius: 3px;
+}
+
+.section-footer {
+  position: relative;
+  top: 350px;
 }
 
 .footer-contact-text, .div-footer {

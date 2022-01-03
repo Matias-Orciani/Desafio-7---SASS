@@ -1,5 +1,8 @@
 /*Seccion Gallery*/
-
+.section-galeria {
+    position: relative;
+    top: 200px;
+}
 .div-galeria{
     display: grid;
     justify-content: center;
@@ -17,8 +20,14 @@
 .h2-galeria {
     display: flex;
    justify-content: center;
+   padding: 5%;
 }
 /*Seccion Works a*/
+
+.section-works-a {
+        position: relative;
+        top: 250px;
+}
 
 .h3-works-a {
     display: flex;
@@ -35,6 +44,11 @@
 }
 
 /*Seccion Works b*/
+
+.section-works-b {
+    position: relative;
+    top: 300px;
+}
 
 .h3-works-b {
     display: flex;
