@@ -16,7 +16,7 @@ main {
   position: fixed;
   z-index: 1;
   width: 100%;
-  height: 110px;
+  height: 10%;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.493);
@@ -31,8 +31,8 @@ main {
 #a-h1 {
   font-family: "News Cycle", sans-serif;
   font-family: "Newsreader", serif;
-  margin-left: 40px;
-  line-height: 80px;
+  margin-left: 3%;
+  line-height: 250%;
 }
 
 #a-h1:hover {
@@ -60,7 +60,7 @@ h2 {
   font-family: "News Cycle", sans-serif;
   font-family: "Newsreader", serif;
   justify-content: center;
-  font-size: 40px;
+  font-size: 200%;
   display: flex;
   justify-content: center;
 }
@@ -75,11 +75,11 @@ h3 {
 /*Fin de edicion de titulos*/
 .section-bio {
   position: relative;
-  top: 100px;
+  top: 10px;
 }
 
 .about-me {
-  padding: 30px;
+  padding: 5%;
 }
 
 .nav-bio {
@@ -92,36 +92,35 @@ h3 {
   border-radius: 100%;
   width: 30%;
   height: 30%;
-  padding-bottom: 40px;
+  padding-bottom: 4%;
 }
 
 .h2-statement {
-  padding-top: 40px;
-  font-size: 20px;
+  padding-top: 4%;
+  font-size: 150%;
 }
 
 .text-bio {
   margin-left: 20%;
   margin-right: 20%;
-  padding-top: 35px;
+  padding-top: 2%;
   text-align: justify;
-  size: 50px;
   color: blanchedalmond;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 100%;
 }
 
 /*Seccion Gallery*/
 .section-galeria {
   position: relative;
-  top: 200px;
+  top: 180px;
 }
 
 .div-galeria, .div-works-b, .div-works-a {
   display: grid;
   justify-content: center;
   grid-template-areas: "a b c" "d e f" "g h i";
-  gap: 20px;
+  gap: 2%;
 }
 
 .img-galeria {
@@ -132,13 +131,13 @@ h3 {
 .h2-galeria {
   display: flex;
   justify-content: center;
-  padding: 5%;
+  padding-bottom: 2%;
 }
 
 /*Seccion Works a*/
 .section-works-a {
   position: relative;
-  top: 250px;
+  top: 300px;
 }
 
 .h3-works-a {
@@ -155,7 +154,7 @@ h3 {
 /*Seccion Works b*/
 .section-works-b {
   position: relative;
-  top: 300px;
+  top: 350px;
 }
 
 .h3-works-b {
@@ -179,13 +178,13 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 2%;
 }
 
 .footer-contact-text {
   color: blanchedalmond;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 150%;
 }
 
 .instagram-contact {
@@ -318,6 +317,107 @@ h3 {
     width: 230px;
     border-radius: 3px;
   }
+}
+@media screen and (max-width: 399px) {
+  #a-h1 {
+    font-size: small;
+    margin-left: 5px;
+  }
+
+  #header-menu {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 8%;
+  }
+}
+.header-contact {
+  padding: 0%;
+}
+
+.div-form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  color: blanchedalmond;
+  font-family: "News Cycle", sans-serif;
+  font-family: "Newsreader", serif;
+  background: #664f1c;
+  max-width: 28%;
+  max-height: 80%;
+  padding: 2% 4%;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+textarea {
+  color: white;
+  font-family: "News Cycle", sans-serif;
+  font-family: "Newsreader", serif;
+}
+
+legend {
+  font-family: "News Cycle", sans-serif;
+  font-family: "Newsreader", serif;
+}
+
+label {
+  font-size: 100%;
+  padding: 2%;
+  font-family: "News Cycle", sans-serif;
+  font-family: "Newsreader", serif;
+  background: none;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 200%;
+  margin-bottom: 2%;
+  background: none;
+}
+
+input, textarea {
+  color: black;
+  width: 100%;
+  margin-bottom: 20px;
+  pad: 7px;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.botonera {
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.botonera:hover {
+  cursor: pointer;
+}
+
+.div-botonera {
+  gap: 2%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background: none;
+}
+
+.footer-contact {
+  background-color: black;
+}
+
+.header-contact {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

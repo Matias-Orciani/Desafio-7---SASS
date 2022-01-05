@@ -1,0 +1,78 @@
+.header-contact {
+    padding: 0%;}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+}
+form {
+    color: blanchedalmond;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+    background: rgb(102, 79, 28);
+    max-width: 28%;
+    max-height: 80%;
+    padding: 2% 4%;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+textarea {
+    color: white;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+}
+legend {
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+}
+label {
+    font-size: 100%;
+    padding: 2%;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+    background: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 200%;
+    margin-bottom: 2%;
+    background: none;
+}
+input, textarea {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin-bottom: 20px;
+    pad: 7px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.botonera {
+    padding: 2%;
+    border-radius: 5px;
+}
+.botonera:hover {
+    cursor: pointer;
+}
+.div-botonera {
+    gap: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background: none; 
+}
+.footer-contact {
+    background-color: black;
+}
+.header-contact {
+
+    background-color: black;
+}
