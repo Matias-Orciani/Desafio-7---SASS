@@ -253,6 +253,15 @@ h3 {
     width: 300px;
     border-radius: 3px;
   }
+
+  /*Formulario de Contacto*/
+  form {
+    min-width: 40%;
+  }
+
+  .relleno {
+    font-size: smaller;
+  }
 }
 @media screen and (max-width: 991px) {
   .nav-item {

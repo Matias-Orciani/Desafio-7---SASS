@@ -26,11 +26,11 @@
     "c d"
     "e f";
     gap: 20px;
-}
+    }
     .img-works-a {
     width: 300px;
-    border-radius: 3px;
-}
+    border-radius: 3px; 
+    }
 
 /*Seccion Works b*/
     .div-works-b{
@@ -41,11 +41,19 @@
     "c d"
     "e f";
     gap: 20px;
-}
+    }
     .img-works-b {
     width: 300px;
-    border-radius: 3px;
-}
+    border-radius: 3px; 
+    }
+
+    /*Formulario de Contacto*/
+    form {
+    min-width: 40%;
+    }
+    .relleno {
+    font-size: smaller;
+    }
 }
 @media screen and (max-width: 991px){
 
