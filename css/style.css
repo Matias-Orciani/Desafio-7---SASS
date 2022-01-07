@@ -1,3 +1,4 @@
+/*Formato General*/
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,8 @@ body {
   background-color: black;
 }
 
+/*Fin Formato General*/
+/*Seccion de Inicio*/
 main {
   background-color: black;
 }
@@ -54,6 +57,7 @@ main {
   height: 100%;
 }
 
+/*Fin de la Seccion de Inicio*/
 /* Edicion de titulos*/
 h2 {
   color: blanchedalmond;
@@ -73,6 +77,7 @@ h3 {
 }
 
 /*Fin de edicion de titulos*/
+/*Seccion Biografia*/
 .section-bio {
   position: relative;
   top: 10px;
@@ -110,6 +115,8 @@ h3 {
   font-size: 100%;
 }
 
+/*Fin Seccion Biografia*/
+/*------Grillas de Imagenes---------*/
 /*Seccion Gallery*/
 .section-galeria {
   position: relative;
@@ -168,6 +175,8 @@ h3 {
   border-radius: 3px;
 }
 
+/*------ Fin de Grillas de Imagenes---------*/
+/*Footer*/
 .section-footer {
   position: relative;
   top: 350px;
@@ -200,6 +209,7 @@ h3 {
   cursor: hand;
 }
 
+/*Fin de Footer*/
 /*-------Full Responsive--------*/
 @media screen and (max-width: 1200px) {
   .div-galeria, .div-works-a, .div-works-b {
@@ -212,6 +222,10 @@ h3 {
   .img-galeria {
     width: 300px;
     border-radius: 3px;
+  }
+
+  form {
+    min-width: 40%;
   }
 
   /*Seccion Works a*/
@@ -331,6 +345,8 @@ h3 {
     height: 8%;
   }
 }
+/*-------Fin Full Responsive--------*/
+/*Formulario de Contacto*/
 .header-contact {
   padding: 0%;
 }
@@ -419,5 +435,7 @@ textarea {
 .header-contact {
   background-color: black;
 }
+
+/*Fin de Formulario de Contacto*/
 
 /*# sourceMappingURL=style.css.map */
