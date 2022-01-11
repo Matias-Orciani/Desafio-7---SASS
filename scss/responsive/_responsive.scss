@@ -6,15 +6,11 @@
         justify-content: center;
         grid-template-areas: 
         "a b" "c d" "e f" "g h" "i 0";
-        gap: 20px;
-    }
-    .img-galeria {
-        width: 300px;
-        border-radius: 3px;
+        gap: 2%;
     }
 
-    form {
-     min-width: 40%;
+    .img-galeria {
+        width: 32vw;
     }
  
     /*Seccion Works a*/
@@ -25,14 +21,15 @@
     "a b"
     "c d"
     "e f";
-    gap: 20px;
-    }
-    .img-works-a {
-    width: 300px;
-    border-radius: 3px; 
+    gap: 2%;
     }
 
-/*Seccion Works b*/
+    .img-works-a {
+        width: 32vw;
+    }
+
+
+    /*Seccion Works b*/
     .div-works-b{
     display: grid;
     justify-content: center;
@@ -40,13 +37,13 @@
     "a b"
     "c d"
     "e f";
-    gap: 20px;
-    }
-    .img-works-b {
-    width: 300px;
-    border-radius: 3px; 
+    gap: 2%;
     }
 
+    .img-works-b {
+        width: 32vw;
+    }
+    
     /*Formulario de Contacto*/
     form {
     min-width: 40%;
@@ -58,19 +55,16 @@
 @media screen and (max-width: 991px){
 
     .nav-item {
-        margin-left: 40px;
-        margin-top: 25px;
+        margin-left: 15%;
+        margin-top: 2%;
     }
 
     .navbar-nav{
-        margin-top: 12px;
-        max-width: 120px;
-        max-height: 600px;
-        top: 0;
-        left: 0;
+        margin-top: 0%;
+        max-width: 15%;
+        max-height: 10%;
         background-color: rgba(0, 0, 0, 0.493);
     }
-
 }
 
 @media screen and (max-width: 664px){
@@ -80,11 +74,9 @@
         justify-content: center;
         grid-template-areas: 
         "a" "b" "c" "d" "e" "f" "g" "h" "i";
-        gap: 20px;
     }
     .img-galeria {
-        width: 350px;
-        border-radius: 3px;
+        width: 32vw;
     }
 
     /*Seccion Works a*/
@@ -94,11 +86,9 @@
     justify-content: center;
     grid-template-areas: 
     "a" "b" "c" "d" "e" "f";
-    gap: 20px;
 }
     .img-works-a {
-    width: 350px;
-    border-radius: 3px;
+    width: 32vw;
 }
 
 /*Seccion Works b*/
@@ -108,11 +98,9 @@
     justify-content: center;
     grid-template-areas: 
     "a" "b" "c" "d" "e" "f";
-    gap: 20px;
 }
     .img-works-b {
-    width: 350px;
-    border-radius: 3px;
+    width: 32vw;
 }
 }
 @media screen and (max-width: 376px){
@@ -126,36 +114,39 @@
 @media screen and (max-width: 399px){
 
     .img-galeria {
-        width: 230px;
-        border-radius: 3px;
+        width: 32vw;
     }
 
     /*Seccion Works a*/
 
     .img-works-a {
-    width: 230px;
-    border-radius: 3px;
+    width: 32vw;
 }
 
-/*Seccion Works b*/
+    /*Seccion Works b*/
 
-.img-works-b {
-    width: 230px;
-    border-radius: 3px;
+    .img-works-b {
+    width: 32vw;
+    }
 }
-}
+
 @media screen and (max-width: 399px){
 
     #a-h1{
         font-size: small;
-        margin-left: 5px;
+        margin-left: 2%;
 
     }
     #header-menu {
         position: fixed;
         z-index: 1;
         width: 100%;
-        height: 8%;
+        height: 10%;
+    }
+    
+    .navbar-nav{
+        margin-top: 2%;
+        max-width: 20%;
     }
 }
 /*-------Fin Full Responsive--------*/

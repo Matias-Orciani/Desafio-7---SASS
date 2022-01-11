@@ -27,7 +27,7 @@ main {
 
 .nav-link:hover {
   background-color: #998b76;
-  border-radius: 5px;
+  border-radius: 2%;
   transition: 0.5s;
 }
 
@@ -80,7 +80,7 @@ h3 {
 /*Seccion Biografia*/
 .section-bio {
   position: relative;
-  top: 10px;
+  top: 10%;
 }
 
 .about-me {
@@ -120,7 +120,7 @@ h3 {
 /*Seccion Gallery*/
 .section-galeria {
   position: relative;
-  top: 180px;
+  top: 18vh;
 }
 
 .div-galeria, .div-works-b, .div-works-a {
@@ -131,7 +131,7 @@ h3 {
 }
 
 .img-galeria {
-  width: 400px;
+  width: 30vw;
   border-radius: 3px;
 }
 
@@ -144,7 +144,7 @@ h3 {
 /*Seccion Works a*/
 .section-works-a {
   position: relative;
-  top: 300px;
+  top: 30vh;
 }
 
 .h3-works-a {
@@ -154,14 +154,14 @@ h3 {
 }
 
 .img-works-a {
-  width: 400px;
+  width: 30vw;
   border-radius: 3px;
 }
 
 /*Seccion Works b*/
 .section-works-b {
   position: relative;
-  top: 350px;
+  top: 35vh;
 }
 
 .h3-works-b {
@@ -171,7 +171,7 @@ h3 {
 }
 
 .img-works-b {
-  width: 400px;
+  width: 30vw;
   border-radius: 3px;
 }
 
@@ -179,7 +179,7 @@ h3 {
 /*Footer*/
 .section-footer {
   position: relative;
-  top: 350px;
+  top: 50vh;
 }
 
 .footer-contact-text, .div-footer {
@@ -216,16 +216,11 @@ h3 {
     display: grid;
     justify-content: center;
     grid-template-areas: "a b" "c d" "e f" "g h" "i 0";
-    gap: 20px;
+    gap: 2%;
   }
 
   .img-galeria {
-    width: 300px;
-    border-radius: 3px;
-  }
-
-  form {
-    min-width: 40%;
+    width: 32vw;
   }
 
   /*Seccion Works a*/
@@ -233,12 +228,11 @@ h3 {
     display: grid;
     justify-content: center;
     grid-template-areas: "a b" "c d" "e f";
-    gap: 20px;
+    gap: 2%;
   }
 
   .img-works-a {
-    width: 300px;
-    border-radius: 3px;
+    width: 32vw;
   }
 
   /*Seccion Works b*/
@@ -246,12 +240,11 @@ h3 {
     display: grid;
     justify-content: center;
     grid-template-areas: "a b" "c d" "e f";
-    gap: 20px;
+    gap: 2%;
   }
 
   .img-works-b {
-    width: 300px;
-    border-radius: 3px;
+    width: 32vw;
   }
 
   /*Formulario de Contacto*/
@@ -265,16 +258,14 @@ h3 {
 }
 @media screen and (max-width: 991px) {
   .nav-item {
-    margin-left: 40px;
-    margin-top: 25px;
+    margin-left: 15%;
+    margin-top: 2%;
   }
 
   .navbar-nav {
-    margin-top: 12px;
-    max-width: 120px;
-    max-height: 600px;
-    top: 0;
-    left: 0;
+    margin-top: 0%;
+    max-width: 15%;
+    max-height: 10%;
     background-color: rgba(0, 0, 0, 0.493);
   }
 }
@@ -283,12 +274,10 @@ h3 {
     display: grid;
     justify-content: center;
     grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i";
-    gap: 20px;
   }
 
   .img-galeria {
-    width: 350px;
-    border-radius: 3px;
+    width: 32vw;
   }
 
   /*Seccion Works a*/
@@ -296,12 +285,10 @@ h3 {
     display: grid;
     justify-content: center;
     grid-template-areas: "a" "b" "c" "d" "e" "f";
-    gap: 20px;
   }
 
   .img-works-a {
-    width: 350px;
-    border-radius: 3px;
+    width: 32vw;
   }
 
   /*Seccion Works b*/
@@ -309,12 +296,10 @@ h3 {
     display: grid;
     justify-content: center;
     grid-template-areas: "a" "b" "c" "d" "e" "f";
-    gap: 20px;
   }
 
   .img-works-b {
-    width: 350px;
-    border-radius: 3px;
+    width: 32vw;
   }
 }
 @media screen and (max-width: 376px) {
@@ -325,33 +310,35 @@ h3 {
 }
 @media screen and (max-width: 399px) {
   .img-galeria {
-    width: 230px;
-    border-radius: 3px;
+    width: 32vw;
   }
 
   /*Seccion Works a*/
   .img-works-a {
-    width: 230px;
-    border-radius: 3px;
+    width: 32vw;
   }
 
   /*Seccion Works b*/
   .img-works-b {
-    width: 230px;
-    border-radius: 3px;
+    width: 32vw;
   }
 }
 @media screen and (max-width: 399px) {
   #a-h1 {
     font-size: small;
-    margin-left: 5px;
+    margin-left: 2%;
   }
 
   #header-menu {
     position: fixed;
     z-index: 1;
     width: 100%;
-    height: 8%;
+    height: 10%;
+  }
+
+  .navbar-nav {
+    margin-top: 2%;
+    max-width: 20%;
   }
 }
 /*-------Fin Full Responsive--------*/
@@ -422,7 +409,7 @@ textarea {
 
 .botonera {
   padding: 2%;
-  border-radius: 5px;
+  border-radius: 5%;
 }
 
 .botonera:hover {

@@ -4,7 +4,7 @@
 /*Seccion Gallery*/
 .section-galeria {
     position: relative;
-    top: 180px;
+    top: 18vh;
 }
 .div-galeria{
     display: grid;
@@ -17,7 +17,7 @@
 }
  
 .img-galeria {
-    width: 400px;
+    width: 30vw;
     border-radius: 3px;
 }
 .h2-galeria {
@@ -28,7 +28,7 @@
 /*Seccion Works a*/
 .section-works-a {
         position: relative;
-        top: 300px;
+        top: 30vh;
 }
 
 .h3-works-a {
@@ -41,14 +41,14 @@
 @extend .div-galeria }
 
 .img-works-a {
-    width: 400px;
+    width: 30vw;
     border-radius: 3px;
 }
 
 /*Seccion Works b*/
 .section-works-b {
     position: relative;
-    top: 350px;
+    top: 35vh;
 }
 
 .h3-works-b {
@@ -62,7 +62,7 @@
 }
 
 .img-works-b {
-    width: 400px;
+    width: 30vw;
     border-radius: 3px;
 }
 /*------ Fin de Grillas de Imagenes---------*/
