@@ -257,16 +257,26 @@ h3 {
   }
 }
 @media screen and (max-width: 991px) {
-  .nav-item {
-    margin-left: 15%;
-    margin-top: 2%;
+  #a-h1 {
+    font-size: large;
+    margin-left: 25%;
+    margin-right: 75%;
   }
 
-  .navbar-nav {
-    margin-top: 0%;
-    max-width: 15%;
-    max-height: 10%;
+  .nav-item {
+    padding: 5%;
+  }
+
+  #ul-menu {
+    margin-top: 2%;
+    width: 80px;
+    max-height: 0%;
     background-color: rgba(0, 0, 0, 0.493);
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    top: 5%;
   }
 }
 @media screen and (max-width: 664px) {
@@ -330,8 +340,9 @@ h3 {
 }
 @media screen and (max-width: 399px) {
   #a-h1 {
-    font-size: small;
-    margin-left: 2%;
+    font-size: medium;
+    margin-left: 25%;
+    margin-right: 75%;
   }
 
   #header-menu {
@@ -342,8 +353,12 @@ h3 {
   }
 
   .navbar-nav {
-    margin-top: 2%;
+    margin-top: 5%;
     max-width: 20%;
+  }
+
+  #ul-menu {
+    width: 80px;
   }
 }
 /*-------Fin Full Responsive--------*/
